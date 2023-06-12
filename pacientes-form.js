@@ -6,7 +6,6 @@ if (tablaPaciente == null) {
     var tablaPaciente = [];
 }
 
-
 var idForm = localStorage.getItem("idForm");
 idForm = JSON.parse(idForm);
 if (idForm == null) {
